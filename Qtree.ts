@@ -1,4 +1,5 @@
 import QtreeObj from "./Bean/QtreeObj";
+import RectBean from "./Bean/RectBean";
 import Qnode from "./Qnode";
 
 export default class Qtree{
@@ -6,7 +7,7 @@ export default class Qtree{
 
     public _maxObjCount = 0;
 
-    public _bound = {};
+    public _bound:RectBean;
     /** 子节点 */
     public _root: Qnode;
 

@@ -5,7 +5,7 @@ import Qtree from "./Qtree";
 
 export default class Qnode {
     /** 包围盒 */
-    public _bound: { x, z, w, h, maxX, minX, maxZ, minZ };
+    public _bound: RectBean;
     /** 宽松包围盒 */
     public _looseBound: any = {};
     /** 父节点 */
@@ -138,7 +138,7 @@ export default class Qnode {
         //遍历移除
         for (let i = this._objList.length - 1; i >= 0; i--) {
             //比较对象id是否相等，该条件可根据需要自行修改
-            if (this._objList[i].objId == obj.objId) {
+            if (this._objList[i].id == obj.id) {
                 this._objList.splice(i, 1);
                 this._objCount--;
                 return;
