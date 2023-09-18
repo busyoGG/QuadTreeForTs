@@ -17,4 +17,4 @@ qtree.findObjFromRect(rect);
 qnode = qnode.refresh(qObj);
 ```
 
-具体说明见 [四叉树空间管理](https://busyo.buzz/article/Laya/%E5%B7%A5%E5%85%B7/%E5%9B%9B%E5%8F%89%E6%A0%91%E7%A9%BA%E9%97%B4%E7%AE%A1%E7%90%86/)
+具体说明见 [四叉树空间管理](https://busyo.buzz/article/3357cf00d6c0/)
